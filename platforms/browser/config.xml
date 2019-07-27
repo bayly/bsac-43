@@ -15,6 +15,10 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <access launch-external="yes" origin="whatsapp:*" />
+    <allow-navigation href="https://web.whatsapp.com" />
+    <allow-navigation href="https://www.bsac.com/home" />
+    <allow-navigation href="https://magicseaweed.com" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
