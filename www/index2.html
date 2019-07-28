@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2016 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+    <!-- Good default declaration:
+    * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+    * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+    * Disables use of eval() and inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+        * Enable inline JS: add 'unsafe-inline' to default-src
+        * Enable eval(): add 'unsafe-eval' to default-src
+    * Create your own at http://cspisawesome.com
+    -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
+<!--<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />-->
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <title>BSAC 43 Teeside</title>
+</head>
+
+<body class="is-preload-0 is-preload-1 is-preload-2">
+    <div class="app">
+        <h1>Bsac 43</h1>
+        <div id="deviceready" class="blink">
+            <p class="event listening">Connecting to Device</p>
+            <p class="event received">Device is Ready</p>
+        </div>
+        
+        
+        <!-- Main -->
+			<div id="main">
+				<!-- Header -->
+					<header id="header">
+						<div class="navbar">
+                            <h1>BSAC 43</h1>
+<!--                          <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> -->
+                          <a href="#"><i class="fa fa-fw fa-search"></i> Search</a> 
+<!--                          <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a> -->
+                          <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+                        </div>
+						<p>Growing the nations love of diving in the north east <a href="#" onclick="window.open('http://www.teesside43.co.uk/', '_self'); return false;">Teeside 43</a></p>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+					</header>
+                
+				<!-- Thumbnail -->
+					<section id="thumbnails">
+						<article>
+							<a class="thumbnail" href="#" onclick="window.open('https://web.whatsapp.com/', '_self'); return false;"><img src="images/thumbs/01.jpg" alt="" /></a>
+							<h2>whats app</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</article>
+						<article>
+							<a class="thumbnail" href="#" onclick="window.open('http://www.bsac.com/home', '_self'); return false;"><img src="images/thumbs/02.jpg" alt="" /></a>
+							<h2>Website</h2>
+							<p>Sed velit lacus, laoreet at venenatis convallis in lorem tincidunt.</p>
+						</article>
+						<article>
+							<a class="thumbnail" href="#" onclick="window.open('https://magicseaweed.com/Redcar-Surf-Report/1365/', '_self'); return false;"><img src="images/thumbs/03.jpg" alt="" /></a>
+							<h2>Magic seaweed</h2>
+							<p>Maecenas eleifend tellus ut turpis eleifend, vitae pretium faucibus.</p>
+						</article>
+						<article>
+							<a class="thumbnail" href="#" onclick="window.open('https://www.bbc.co.uk/weather/2639563', '_self'); return false;"><img src="images/thumbs/04.jpg" alt="" /></a>
+							<h2>Weather</h2>
+							<p>Tristique in nulla vel congue. Sed sociis natoque parturient nascetur.</p>
+						</article>
+						<article>
+							<a class="thumbnail" href="#" onclick="window.open('https://www.flickr.com/photos/170354664@N04', '_self'); return false;"><img src="images/thumbs/05.jpg" alt="" /></a>
+							<h2>Flickr pictures</h2>
+							<p>In pellentesque cursus velit id posuere. Donec vehicula nulla.</p>
+						</article>
+						<article>
+							<a class="thumbnail" href="#" onclick="window.open('https://www.facebook.com/Teesside43', '_self'); return false;"><img src="images/thumbs/06.jpg" alt="" /></a>
+							<h2>Facebook</h2>
+							<p>Nulla dignissim libero maximus tellus varius dictum ut posuere magna.</p>
+						</article>
+						<article>
+							<a class="thumbnail" href="images/fulls/07.jpg"><img src="images/thumbs/07.jpg" alt="" /></a>
+							<h2>Documents</h2>
+							<p>Etiam ultricies, lorem quis efficitur porttitor, facilisis ante orci urna.</p>
+						</article>
+						<article>
+							<a class="thumbnail" href="#" onclick="window.open('https://www.youtube.com/channel/UClIrnRmpENtDe_igdQCslcg', '_self'); return false;"><img src="images/thumbs/08.jpg" alt="" /></a>
+							<h2>Video</h2>
+							<p>Nunc egestas congue lorem. Nullam dictum placerat ex sapien tortor mattis.</p>
+						</article>
+						<article>
+							<a class="thumbnail" href="images/fulls/09.jpg"><img src="images/thumbs/09.jpg" alt="" /></a>
+							<h2>Info & useful links</h2>
+							<p>In quis vulputate dui. Maecenas metus elit, dictum praesent lacinia lacus.</p>
+						</article>
+						<article>
+							<a class="thumbnail" href="images/fulls/10.jpg"><img src="images/thumbs/10.jpg" alt="" /></a>
+							<h2>Habitant tristique senectus</h2>
+							<p>Vestibulum ante ipsum primis in faucibus orci luctus ac tincidunt dolor.</p>
+						</article>
+						<article>
+							<a class="thumbnail" href="images/fulls/11.jpg"><img src="images/thumbs/11.jpg" alt="" /></a>
+							<h2>Pharetra ex non faucibus</h2>
+							<p>Ut sed magna euismod leo laoreet congue. Fusce congue enim ultricies.</p>
+						</article>
+						<article>
+							<a class="thumbnail" href="images/fulls/12.jpg"><img src="images/thumbs/12.jpg" alt="" /></a>
+							<h2>Mattis lorem sodales</h2>
+							<p>Feugiat auctor leo massa, nec vestibulum nisl erat faucibus, rutrum nulla.</p>
+						</article>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; Bsac 43.</li><li>Design: <a href="http://html5up.net">Yeti creations</a>.</li>
+						</ul>
+					</footer>
+
+			</div>
+
+    </div>
+	
+
+		
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/main.js"></script>
+            <script type="text/javascript" src="cordova.js"></script>
+            <script type="text/javascript" src="js/index.js"></script>
+            <script type="text/javascript">
+                app.initialize();
+            </script>
+</body>
+
+</html>

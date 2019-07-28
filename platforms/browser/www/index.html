@@ -42,6 +42,7 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
     <title>BSAC 43 Teeside</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body class="is-preload-0 is-preload-1 is-preload-2">
@@ -54,81 +55,144 @@
         <!-- Main -->
 			<div id="main">
 				<!-- Header -->
-					<header id="header">
-						<h1>BSAC 43</h1>
-						<p>Growing the nations love of diving in the north east <a href="http://www.teesside43.co.uk/">Teeside 43</a></p>
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
+					<header>
+						<!-- Top Navigation Menu -->
+                        <div class="topnav">
+                          <a href="#" class="active">BSAC 43</a>
+                          <!-- Navigation links (hidden by default) -->
+                          <div id="myLinks">
+                            <a href="#">News</a>
+                            <a href="#">Contact</a>
+                            <a href="#">About</a>
+                          </div>
+                          <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                          </a>
+                        </div>
+						<p>Growing the nations love of diving in the north east <a href="#" onclick="window.open('http://www.teesside43.co.uk/', '_self'); return false;">Teeside 43</a></p>
 					</header>
-                <a href="#" onclick="window.open('https://web.whatsapp.com/', '_self'); return false;">WHATS APP</a>
                 
-				<!-- Thumbnail -->
-					<section id="thumbnails">
-						<article>
-							<a class="thumbnail" href="#" onclick="window.open('https://web.whatsapp.com/', '_self'); return false;"><img src="images/thumbs/01.jpg" alt="" /></a>
+                <section id="boxes">
+                <div class="flip-box">
+                  <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                      <img src="img_avatar.png" alt="Whats App" style="width:100%;height:100%;">
+                    </div>
+                    <div class="flip-box-back">
+                        <a class="thumbnail" href="#" onclick="window.open('https://web.whatsapp.com/', '_self'); return false;">
 							<h2>whats app</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-						</article>
-						<article>
-							<a class="thumbnail" href="#" onclick="window.open('http://www.bsac.com/home', '_self'); return false;"><img src="images/thumbs/02.jpg" alt="" /></a>
-							<h2>Website</h2>
-							<p>Sed velit lacus, laoreet at venenatis convallis in lorem tincidunt.</p>
-						</article>
-						<article>
-							<a class="thumbnail" href="#" onclick="window.open('https://magicseaweed.com/Redcar-Surf-Report/1365/', '_self'); return false;"><img src="images/thumbs/03.jpg" alt="" /></a>
-							<h2>Magic seaweed</h2>
-							<p>Maecenas eleifend tellus ut turpis eleifend, vitae pretium faucibus.</p>
-						</article>
-						<article>
-							<a class="thumbnail" href="#" onclick="window.open('https://www.bbc.co.uk/weather/2639563', '_self'); return false;"><img src="images/thumbs/04.jpg" alt="" /></a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="flip-box">
+                  <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                      <img src="img_avatar.png" alt="BSAC" style="width:100%;height:100%;">
+                    </div>
+                    <div class="flip-box-back">
+                        <a class="thumbnail" href="#" onclick="window.open('http://www.bsac.com/home', '_self'); return false;">
+							<h2>BSAC</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </a>
+                    </div>
+                  </div>
+                </div>
+                    
+                <div class="flip-box">
+                  <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                      <img src="img_avatar.png" alt="Surf Report" style="width:100%;height:100%;">
+                    </div>
+                    <div class="flip-box-back">
+                        <a class="thumbnail" href="#" onclick="window.open('https://magicseaweed.com/Redcar-Surf-Report/1365/', '_self'); return false;">
+							<h2>Surf report</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="flip-box">
+                  <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                      <img src="img_avatar.png" alt="Weather" style="width:100%;height:100%;">
+                    </div>
+                    <div class="flip-box-back">
+                        <a class="thumbnail" href="#" onclick="window.open('https://www.bbc.co.uk/weather/2639563', '_self'); return false;">
 							<h2>Weather</h2>
-							<p>Tristique in nulla vel congue. Sed sociis natoque parturient nascetur.</p>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/05.jpg" data-position="top center"><img src="images/thumbs/05.jpg" alt="" /></a>
-							<h2>Nullam vitae nunc vulputate</h2>
-							<p>In pellentesque cursus velit id posuere. Donec vehicula nulla.</p>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/06.jpg"><img src="images/thumbs/06.jpg" alt="" /></a>
-							<h2>Phasellus magna faucibus</h2>
-							<p>Nulla dignissim libero maximus tellus varius dictum ut posuere magna.</p>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/07.jpg"><img src="images/thumbs/07.jpg" alt="" /></a>
-							<h2>Proin quis mauris</h2>
-							<p>Etiam ultricies, lorem quis efficitur porttitor, facilisis ante orci urna.</p>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/08.jpg"><img src="images/thumbs/08.jpg" alt="" /></a>
-							<h2>Gravida quis varius enim</h2>
-							<p>Nunc egestas congue lorem. Nullam dictum placerat ex sapien tortor mattis.</p>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/09.jpg"><img src="images/thumbs/09.jpg" alt="" /></a>
-							<h2>Morbi eget vitae adipiscing</h2>
-							<p>In quis vulputate dui. Maecenas metus elit, dictum praesent lacinia lacus.</p>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/10.jpg"><img src="images/thumbs/10.jpg" alt="" /></a>
-							<h2>Habitant tristique senectus</h2>
-							<p>Vestibulum ante ipsum primis in faucibus orci luctus ac tincidunt dolor.</p>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/11.jpg"><img src="images/thumbs/11.jpg" alt="" /></a>
-							<h2>Pharetra ex non faucibus</h2>
-							<p>Ut sed magna euismod leo laoreet congue. Fusce congue enim ultricies.</p>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/12.jpg"><img src="images/thumbs/12.jpg" alt="" /></a>
-							<h2>Mattis lorem sodales</h2>
-							<p>Feugiat auctor leo massa, nec vestibulum nisl erat faucibus, rutrum nulla.</p>
-						</article>
-					</section>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="flip-box">
+                  <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                      <img src="img_avatar.png" alt="Photos" style="width:100%;height:100%;">
+                    </div>
+                    <div class="flip-box-back">
+                        <a class="thumbnail" href="#" onclick="window.open('https://www.flickr.com/photos/170354664@N04', '_self'); return false;">
+							<h2>Flickr</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="flip-box">
+                  <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                      <img src="img_avatar.png" alt="Facebook" style="width:100%;height:100%;">
+                    </div>
+                    <div class="flip-box-back">
+                        <a class="thumbnail" href="#" onclick="window.open('https://www.facebook.com/Teesside43', '_self'); return false;">
+							<h2>Facebook</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </a>
+                    </div>
+                  </div>
+                </div>
+                    
+                <div class="flip-box">
+                  <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                      <img src="img_avatar.png" alt="Videos" style="width:100%;height:100%;">
+                    </div>
+                    <div class="flip-box-back">
+                        <a class="thumbnail" href="#" onclick="window.open('https://www.youtube.com/channel/UClIrnRmpENtDe_igdQCslcg', '_self'); return false;">
+							<h2>Video</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="flip-box">
+                  <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                      <img src="img_avatar.png" alt="Documents" style="width:100%;height:100%;">
+                    </div>
+                    <div class="flip-box-back">
+                        <a class="thumbnail" href="#" onclick="window.open('https://www.facebook.com/Teesside43', '_self'); return false;">
+							<h2>Documents</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </a>
+                    </div>
+                  </div>
+                </div>
+                    
+                </section>
+                
+<!--
+                    <div class="image-container">
+                      <div class="text">LETS DIVE</div>
+                    </div>
+-->
 
 				<!-- Footer -->
 					<footer id="footer">
@@ -144,7 +208,7 @@
 
 		
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
+            <script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/main.js"></script>
