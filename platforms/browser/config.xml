@@ -25,6 +25,11 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <key>UIStatusBarHidden</key>
+    <true />
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
+    <preference name="StatusBarStyle" value="lightcontent" />
 </widget>
